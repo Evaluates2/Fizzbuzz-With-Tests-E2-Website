@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-fizzbuzz",
+  "version": "0.0.1",
+  "description": "fizzbuzz",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "ts-mocha fizzbuzz.test.ts",
+    "test-watch": "ts-mocha -w fizzbuzz.test.ts --watch-extensions ts"
+  },
+  "keywords": [
+    "nodejs",
+    "fizzbuzz"
+  ],
+  "author": "Jim Lynch",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.12",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "ts-mocha": "^6.0.0"
+  }
+}
