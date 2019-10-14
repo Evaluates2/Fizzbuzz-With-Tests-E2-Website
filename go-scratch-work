@@ -1,0 +1,42 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+
+	fmt.Println(fizzbuzz("ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok"))
+}
+
+func checkWord(inputWord string, index int) (outputWord string) {
+	
+	if index % 15 == 0 {
+		return "fizzbuzz"
+	}
+	
+	if index % 5 == 0 {
+		return "buzz"
+	}
+	
+	if index % 3 == 0 {
+		return "fizz"
+	}
+	
+	return inputWord
+}
+
+func fizzbuzz(input string) (output string) {
+
+	var words = strings.Split(input, " ")
+	
+	for i := 0;  i<=(len(words) - 1); i++ {
+		words[i] = checkWord(words[i], (i+1))
+        }
+
+	output = strings.Join(words, " ")
+
+	return
+}
+
