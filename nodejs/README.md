@@ -1,6 +1,9 @@
 # Evaluates2 NodeJS Fizzbuzz!
 Examples of writing node.js functions with units tests! yay!!
 
+# Repl.it Version
+If you don't feel like cloning and running this project locally, you can try thr repl.it version here: https://repl.it/@JimLynch/Nodejs-TDD-Fizzbuzzified-String
+
 ## Functional Vs Class-Based
 We could have architected our fizzbuzz code either using a JavaScript class or not using classes at all. I couldn't decide which one to do... so I just did both. 😉
 
