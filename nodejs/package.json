@@ -4,7 +4,7 @@
   "description": "fizzbuzz",
   "main": "fizzbuzz.js",
   "scripts": {
-    "test": "mocha fizzbuzz.test.js",
+    "test": "mocha fizzbuzz-class.test.js fizzbuzz-function.test.js",
     "test-watch": "mocha -w fizzbuzz.test.js"
   },
   "keywords": [
