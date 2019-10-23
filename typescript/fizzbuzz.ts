@@ -1,6 +1,7 @@
-export class FizzBuzz {
-  fizzbuzzify(input: String) {
-    return input
+
+export class Fizzbuzz {
+  static fizzbuzz(inputString: string): string {
+    return inputString
       .split(" ")
       .filter(item => item !== "")
       .map((word, i) => {
@@ -10,7 +11,5 @@ export class FizzBuzz {
         return word;
       })
       .join(" ");
-  }
+  };
 }
-
-
