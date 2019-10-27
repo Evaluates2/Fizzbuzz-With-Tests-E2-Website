@@ -1,6 +1,8 @@
 
-export class Fizzbuzz {
+export default class Fizzbuzz {
+  
   static fizzbuzz(inputString: string): string {
+    
     return inputString
       .split(" ")
       .filter(item => item !== "")
@@ -12,4 +14,5 @@ export class Fizzbuzz {
       })
       .join(" ");
   };
+  
 }
