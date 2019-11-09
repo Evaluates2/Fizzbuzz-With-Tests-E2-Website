@@ -5,7 +5,6 @@ const fizzbuzzify = require('./fizzbuzzify')
 describe('fizzbuzzify', () => {
 
   it("should convert a string to a fizzbuzzified string.", () => {
-
     expect(fizzbuzzify('')).to.equal('')
     expect(fizzbuzzify('ok')).to.equal('ok')
     expect(fizzbuzzify('ok ok ok')).to.equal('ok ok fizz')
