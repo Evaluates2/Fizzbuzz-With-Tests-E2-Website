@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-fizzbuzz",
+  "version": "0.0.1",
+  "description": "fizzbuzz",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "mocha fizzbuzzify.test.js",
+    "test-watch": "mocha -w fizzbuzz.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "fizzbuzz"
+  ],
+  "author": "Jim Lynch",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  }
+}
