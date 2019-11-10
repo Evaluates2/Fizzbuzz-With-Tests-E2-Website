@@ -1,0 +1,1 @@
+gcc -Wall -o test basicexample.c -lcunit
