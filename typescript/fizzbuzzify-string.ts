@@ -1,7 +1,12 @@
 
 export default class Fizzbuzz {
   
-  static fizzbuzz(inputString: string): string {
+/**
+ *  Takes a string and returns a “fizzbuzzified” version of the string where 
+ *  every 3rd word is “fizz” and every 5th word is “buzz”, except every 15th 
+ *  word is “fizzbuzz”.
+ */
+  static fizzbuzzify(inputString: string): string {
     
     return inputString
       .split(" ")

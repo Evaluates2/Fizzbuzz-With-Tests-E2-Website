@@ -1,3 +1,3 @@
 (ns testing.main
-  (require [e2.fizzbuzz_test]))
+  (require [Fizzbuzz.fizzbuzz_string_test]))
 (use 'clojure.test)
